@@ -9,7 +9,7 @@ env:
 jobs:
   github-cache:
     name: GitHub-hosted runner with Azure cache
-    runs-on: ubuntu-latest
+    runs-on: monkci-4vcpu
     steps:
     - uses: actions/checkout@v4
 
